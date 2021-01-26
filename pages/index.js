@@ -26,10 +26,13 @@ export default function Home() {
           <Widget.Header>
             <h1>{db.title}</h1>
           </Widget.Header>
-          <Widget.Header>
+          <Widget.Content>
+            <h1>Quiz do Narutinho</h1>
             <p>{db.title}</p>
-          </Widget.Header>
+          </Widget.Content>
+
         </Widget>
+
         <Widget>
           <Widget.Content>
             <h1>Quiz do Narutinho</h1>
