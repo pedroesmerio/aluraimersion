@@ -1,6 +1,6 @@
 {
   "bg": "https://images5.alphacoders.com/487/487192.png",
-  "title": "Quiz CSS da Alura",
+  "title": "Quiz da Aldeia da Folha",
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
@@ -31,13 +31,14 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#FEBD59",
-      "secondary": "#253743",
-      "mainBg": "#171B35",
+      "primary": "#FDD93D",
+      "secondary": "#D5352E",
+      "terciary": "rgba(249, 157, 37, 0.7)",
+      "mainBg": "rgba(0, 0, 0, 0.1)",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
-    "borderRadius": "4px"
+    "borderRadius": "15px"
   }
 }
