@@ -7,6 +7,7 @@ import Footer from '../assets/styles/components/Footer/Footer.js';
 import GitHubCorner from '../assets/styles/components/GitHubCorner/GitHubCorner.js';
 import Form from '../components/Form/Form.js'
 
+
 export const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
@@ -31,7 +32,6 @@ export default function Home() {
           <Widget.Content>
             <Form />
           </Widget.Content>
-
         </Widget>
 
         <Widget>

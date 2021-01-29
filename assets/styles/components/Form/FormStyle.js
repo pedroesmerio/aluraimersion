@@ -11,6 +11,7 @@ const FormStyle = {
   input: {
     width:'95%',
     marginBottom:'10px',
+    backgroundColor: 'rgba(0, 0, 0, 0.1)',
     color: "#495057",
     height: "unset",
     border: 0,
@@ -32,6 +33,7 @@ const FormStyle = {
     width: '95%',
     height: '35px',
     fontSize:'20px',
+    fontWeight: 'bold',
     fontFamily:'roboto',
     fontWeight: "500",
     border: 0,

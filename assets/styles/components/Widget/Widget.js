@@ -4,7 +4,7 @@ import db from '../../../../db.json';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  background-color: ${({ theme }) => theme.colors.mainBg};
+  background-color: transparent;
   border-radius: ${({ theme }) => theme.borderRadius};
   box-shadow: #000 0px 0px 10px;
   overflow: hidden;
