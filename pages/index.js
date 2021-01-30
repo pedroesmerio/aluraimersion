@@ -1,23 +1,13 @@
 import styled from 'styled-components';
 import db from '../db.json';
+import QuizContainer from '../assets/styles/components/QuizContainer/QuizContainer.js';
 import Widget from '../assets/styles/components/Widget/Widget.js';
 import QuizLogo from '../assets/styles/components/QuizLogo/QuizLogo.js';
 import QuizBackground from '../assets/styles/components/QuizBackground/QuizBackground.js';
 import Footer from '../assets/styles/components/Footer/Footer.js';
 import GitHubCorner from '../assets/styles/components/GitHubCorner/GitHubCorner.js';
-import Form from '../components/Form/Form.js'
+import Form from '../components/Form/Form.js';
 
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
 
 export default function Home() {
   return (

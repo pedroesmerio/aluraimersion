@@ -27,21 +27,6 @@ const FormStyle = {
       color: "#AAAAAA"
     }
   },
-
-  btn: {
-    background: 'linear-gradient(150deg, #FDD93D 30%, #D5352E 90%)',
-    width: '95%',
-    height: '35px',
-    fontSize:'20px',
-    fontWeight: 'bold',
-    fontFamily:'roboto',
-    fontWeight: "500",
-    border: 0,
-    borderRadius: 3,
-    boxShadow: '0 jpx 5px 2px #000',
-    color: 'white',
-    padding: '0 20px',
-  }
 };
 
 export default FormStyle;

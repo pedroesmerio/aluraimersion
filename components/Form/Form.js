@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import FormStyle from '../../assets/styles/components/Form/FormStyle.js';
+import ButtonStyle from '../../assets/styles/components/Button/ButtonStyle.js';
 import { makeStyles } from '@material-ui/core/styles';
 import { useRouter } from 'next/router';
 
@@ -27,11 +28,10 @@ export default function Form() {
           }}
           placeholder="     Diz aí seu nome Ninja"
         />
-        <button type="submit"
-          className={classes.btn}
+        <ButtonStyle type="submit"
           disabled={name.length === 0}>
           Jogar como {name}
-        </button>
+        </ButtonStyle>
       </form>
     </div>
   );
